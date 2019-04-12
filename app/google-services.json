@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "36325996207",
+    "firebase_url": "https://pillar-fitness-tracker-a63ae.firebaseio.com",
+    "project_id": "pillar-fitness-tracker-a63ae",
+    "storage_bucket": "pillar-fitness-tracker-a63ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36325996207:android:dc207e6bed34ddb4",
+        "android_client_info": {
+          "package_name": "com.pillarproductivity.pillar_competitivefitnesstracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36325996207-cie3dj71c8c5ulmaqp8qhfe5tgi82cm7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pillarproductivity.pillar_competitivefitnesstracker",
+            "certificate_hash": "216169883341929e56983409bf179da6f55b008d"
+          }
+        },
+        {
+          "client_id": "36325996207-bseq3khtjvr4bm3qkt11eaoekaee4563.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsza_BoHEeFHXRnVMiwu773iE6BcG4LTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36325996207-bseq3khtjvr4bm3qkt11eaoekaee4563.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
