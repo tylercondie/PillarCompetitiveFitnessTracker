@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Pillar -Competitive Fitness Tracker</string>
+    <string name="app_name">Pillar Fitness</string>
+
+    <!--Start_sign_in strings-->
+    <string name="loginEmailHint">Email</string>
+    <string name="loginPasswordHint">Password</string>
+    <string name="whyAccount">Why do I need an account?</string>
+    <string name="forgotPassword">Forgot your Password?</string>
+    <string name="createAccount">Create Login</string>
+    <string name="tos">Terms of Service and Privacy Policy</string>
+    <string name="logInButton">Log In</string>
 </resources>
