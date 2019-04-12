@@ -6,13 +6,12 @@
     android:layout_height="match_parent"
     tools:layout_editor_absoluteY="25dp">
 
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/rogue2"
+        android:src="@drawable/rogue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -59,10 +58,11 @@
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
             android:background="@drawable/border_login"
+            android:autofillHints="email"
             android:hint="@string/loginEmailHint"
             android:inputType="textEmailAddress"
             android:paddingBottom="12dp"
-            android:paddingLeft="24dp"
+            android:paddingStart="24dp"
             android:paddingTop="12dp"
             android:textColor="#424242"
             android:textColorHint="#546e7a" />
@@ -75,10 +75,11 @@
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
             android:background="@drawable/border_login"
+            android:autofillHints="password"
             android:hint="@string/loginPasswordHint"
             android:inputType="textPassword"
             android:paddingBottom="12dp"
-            android:paddingLeft="24dp"
+            android:paddingStart="24dp"
             android:paddingTop="12dp"
             android:textColor="#424242"
             android:textColorHint="#546e7a" />
@@ -94,7 +95,7 @@
             android:onClick="onClick"
             android:text="@string/logInButton"
             android:textAllCaps="false"
-            android:textColor="#ffffff"
+            android:textColor="@color/pureWhite"
             android:textSize="20sp"
             android:visibility="visible" />
 
@@ -123,21 +124,21 @@
                 android:layout_height="wrap_content"
                 android:onClick="onClick"
                 android:text="@string/whyAccount"
-                android:textColor="#ffffff" />
+                android:textColor="@color/pureWhite" />
 
             <View
                 android:layout_width="2dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="12dp"
                 android:layout_marginRight="12dp"
-                android:background="#ffffff" />
+                android:background="@color/pureWhite" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="onClick"
                 android:text="@string/createAccount"
-                android:textColor="#ffffff"
+                android:textColor="@color/pureWhite"
                 android:textStyle="bold"
                 android:id="@+id/createLogin"/>
 
