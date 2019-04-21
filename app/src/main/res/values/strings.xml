@@ -1,6 +1,17 @@
 <resources>
     <string name="app_name">Pillar Fitness</string>
 
+    <!--Create_account_strings-->
+    <string name="createFirstNHint">First Name</string>
+    <string name="createLastNHint">Last Name</string>
+    <string name="createPasswordHint">Password</string>
+    <string name="createPhoneHint">Phone (Help friends find you)</string>
+    <string name="createEmailHint">Email Address</string>
+    <string name="maleRadio">Male</string>
+    <string name="femaleRadio">Female</string>
+    <string name="createButton">Let\'s Go</string>
+    <string name="agreeTOS">By clicking Let\'s Go, you agree to our terms of service</string>
+
     <!--Start_sign_in strings-->
     <string name="loginEmailHint">Email</string>
     <string name="loginPasswordHint">Password</string>
